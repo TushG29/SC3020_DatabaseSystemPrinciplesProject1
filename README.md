@@ -9,7 +9,8 @@ This is a project for SC3020 (Database System Principles) where we:
 1. In our database management system, we have implemented a B+ Tree structure which provides efficient indexing and retrieval capabilities for large datasets like our NBA games database. This
 meets the need for a robust and efficient data structure to manage and retrieve games by FG_PCT_home (Field Goal Percentage).
 2. We have implemented B+ Tree Search, Insertion and Deletion. 
-3. We are able to find out the below:
+3. We are able to find out the below
+
   - Number of nodes of the updated B+ tree
   - Number of levels of the updated B+ tree
   - Content of the root node of the updated B+ tree
