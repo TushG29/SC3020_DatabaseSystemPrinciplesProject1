@@ -1,5 +1,26 @@
-# SC3020 Databse System Principles Project 1
-## Installation Instructions
+# Welcome to our SC3020 Course Project 1
+## About
+
+This is a project for SC3020 (Database System Principles) where we:
+1. Designed and implemented a storage system with an unspanned record allocation strategy in a team of 4, optimizing query performance through efficient one-pass operations and bulk loading for faster data population
+2. Optimized B+ Tree insertion and deletion algorithms for balanced structure and minimal I/O operations
+
+## Information
+1. In our database management system, we have implemented a B+ Tree structure which provides efficient indexing and retrieval capabilities for large datasets like our NBA games database. This
+meets the need for a robust and efficient data structure to manage and retrieve games by FG_PCT_home (Field Goal Percentage).
+2. We have implemented B+ Tree Search, Insertion and Deletion. 
+3. We are able to find out the below:
+  - Number of nodes of the updated B+ tree
+  - Number of levels of the updated B+ tree
+  - Content of the root node of the updated B+ tree
+  - Number of index nodes the process accesses
+  - Number of data blocks the process accesses
+  - Average of “FG3_PCT_home” of the records that are returned
+  - Running time of the retrieval process
+  - Number of data blocks that would be accessed by a brute-force linear scan method
+  - Running time for brute-force linear scan
+
+## Refer to the below for Installation Instructions
 
 1. Download `clang++` for compilation on MacOS / Linux and `Windows Subsystem for Linux` on Windows.
 2. Clone this repository.
